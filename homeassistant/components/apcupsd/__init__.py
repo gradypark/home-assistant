@@ -20,7 +20,7 @@ DOMAIN = "apcupsd"
 
 KEY_STATUS = "STATFLAG"
 
-MIN_TIME_BETWEEN_UPDATES = timedelta(seconds=60)
+MIN_TIME_BETWEEN_UPDATES = timedelta(seconds=5)
 
 VALUE_ONLINE = 8
 
